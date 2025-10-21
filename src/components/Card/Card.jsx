@@ -1,6 +1,7 @@
 // ABOUTME: Card component with Knowit brand styling and flexible layout options.
 // ABOUTME: Supports multiple color variants, optional header/footer, and custom content.
 
+import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Card.module.css';
 

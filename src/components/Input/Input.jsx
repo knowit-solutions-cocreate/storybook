@@ -1,6 +1,7 @@
 // ABOUTME: Input component with Knowit brand styling
 // ABOUTME: Provides text input with label, error states, and accessibility support
 
+import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Input.module.css';
 

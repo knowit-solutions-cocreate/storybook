@@ -1,6 +1,7 @@
 // ABOUTME: Button component with Knowit brand styling
 // ABOUTME: Provides primary, secondary, and outline variants with multiple sizes
 
+import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
