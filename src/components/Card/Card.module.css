@@ -1,0 +1,63 @@
+/* Knowit brand colors */
+:root {
+  --knowit-black: #0B0B26;
+  --knowit-white: #FEFBE6;
+  --knowit-purple: #CFCEFF;
+  --knowit-blue: #372BC5;
+  --knowit-light-purple: #F7F6FF;
+  --knowit-light-pink: #FFEBDD;
+}
+
+.card {
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(11, 11, 38, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(11, 11, 38, 0.12);
+}
+
+/* Variant styles */
+.default {
+  background-color: var(--knowit-white);
+  color: var(--knowit-black);
+  border: 1px solid rgba(11, 11, 38, 0.1);
+}
+
+.lightPurple {
+  background-color: var(--knowit-light-purple);
+  color: var(--knowit-black);
+  border: 1px solid rgba(55, 43, 197, 0.12);
+}
+
+.lightPink {
+  background-color: var(--knowit-light-pink);
+  color: var(--knowit-black);
+  border: 1px solid rgba(11, 11, 38, 0.1);
+}
+
+.purple {
+  background-color: var(--knowit-purple);
+  color: var(--knowit-black);
+  border: 1px solid rgba(55, 43, 197, 0.15);
+}
+
+/* Section styles */
+.header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(11, 11, 38, 0.1);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.body {
+  flex: 1;
+}
+
+.footer {
+  padding-top: 16px;
+  border-top: 1px solid rgba(11, 11, 38, 0.1);
+  margin-top: 16px;
+}

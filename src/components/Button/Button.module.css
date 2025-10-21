@@ -1,0 +1,88 @@
+/* ABOUTME: CSS module for Button component with Knowit brand colors and styling */
+/* ABOUTME: Implements WCAG AA contrast compliance with hover and active states */
+
+.button {
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid #372BC5;
+  outline-offset: 2px;
+}
+
+/* Variants */
+.primary {
+  background-color: #372BC5;
+  color: #FEFBE6;
+  border: 2px solid transparent;
+}
+
+.primary:hover:not(.disabled) {
+  background-color: #2a1f9c;
+}
+
+.primary:active:not(.disabled) {
+  background-color: #1f1673;
+}
+
+.secondary {
+  background-color: #CFCEFF;
+  color: #0B0B26;
+  border: 2px solid transparent;
+}
+
+.secondary:hover:not(.disabled) {
+  background-color: #b8b8ff;
+}
+
+.secondary:active:not(.disabled) {
+  background-color: #a0a0ff;
+}
+
+.outline {
+  background-color: transparent;
+  color: #0B0B26;
+  border: 2px solid #0B0B26;
+}
+
+.outline:hover:not(.disabled) {
+  background-color: #FEFBE6;
+  border-color: #372BC5;
+  color: #372BC5;
+}
+
+.outline:active:not(.disabled) {
+  background-color: #CFCEFF;
+  border-color: #372BC5;
+}
+
+/* Sizes */
+.small {
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.medium {
+  padding: 12px 24px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.large {
+  padding: 16px 32px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Disabled state */
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
