@@ -1,6 +1,7 @@
 // ABOUTME: Storybook stories demonstrating Card component variants and usage.
 // ABOUTME: Shows all color variants with different content configurations.
 
+import React from 'react';
 import { Card } from './Card';
 
 export default {

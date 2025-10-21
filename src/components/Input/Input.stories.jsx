@@ -1,8 +1,8 @@
 // ABOUTME: Storybook stories demonstrating Input component variants and usage.
 // ABOUTME: Shows all sizes, states, types, and interactive examples with Knowit brand styling.
 
+import React, { useState } from 'react';
 import { Input } from './Input';
-import { useState } from 'react';
 
 export default {
   title: 'Components/Input',

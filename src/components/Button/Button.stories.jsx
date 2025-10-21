@@ -1,6 +1,7 @@
 // ABOUTME: Storybook stories demonstrating Button component variants, sizes, and states.
 // ABOUTME: Shows all combinations of variants, sizes, disabled states, and interactive examples.
 
+import React from 'react';
 import { Button } from './Button';
 
 export default {
